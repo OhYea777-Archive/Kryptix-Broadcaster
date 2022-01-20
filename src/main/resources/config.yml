@@ -1,0 +1,15 @@
+Options:
+  BroadcastFrequency: 600
+  BroadcastFormat: "%prefix% %broadcast%"
+
+Messages:
+  Prefix: "&8[&6KryptixBroadcaster&8]&7"
+  NoPermReload: "%prefix% &4You Do Not Have Permission to Reload the Config!"
+  NoPermBroadcast: "%prefix% &4You Do Not Have Permission to Force a Broadcast!"
+  Reloaded: "%prefix% Config Reloaded!"
+  InvalidArgs: "%prefix% &4Invalid Arguments!"
+  InvalidBroadcast: "%prefix% &4No Broadcast Exists For That Index!"
+  Broadcast: "%prefix% To Broadcast a Message do&8: &e/pz b <message>"
+  NoPermBroadcastMessage: "%prefix% &4You Do Not Have Permission to Broadcast a Message!"
+
+Broadcasts: []

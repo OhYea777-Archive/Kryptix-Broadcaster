@@ -1,0 +1,19 @@
+name: KryptixBroadcaster
+main: com.ohyea777.kryptix.Broadcaster
+version: 0.1
+authors: [OhYea777]
+
+commands:
+  kryptix:
+    aliases: [pz,krkryptixb,kryptixbroadcast,kbroadcast]
+
+permissions:
+  kryptix.*:
+    default: op
+    children:
+      kryptix.broadcast.*: true
+      kryptix.reload: true
+  kryptix.broadcast.*:
+    children:
+      kryptix.broadcast.receive: true
+      kryptix.broadcast: true
